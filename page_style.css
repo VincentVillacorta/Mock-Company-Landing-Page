@@ -1,0 +1,27 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+.d-block{
+  height: 50vh;
+  object-fit: cover; 
+}
+
+#subscribe-section{
+  background-color: green;
+  height: 20vh;
+  width: auto;
+}
+
+#products-section{
+  background-color: blue;
+  height: 100vh;
+  width: auto;
+}
+#contacts-section{
+  background-color: red;
+  height: 30vh;
+  width: auto;
+}
