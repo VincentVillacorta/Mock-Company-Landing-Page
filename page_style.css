@@ -1,27 +1,70 @@
 html{
   scroll-behavior: smooth;
+  font-family: sans-serif;
 }
 
 
 
 .d-block{
   height: 50vh;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 #subscribe-section{
-  background-color: green;
-  height: 20vh;
+  background-color:  #438899;
+  height: auto;
   width: auto;
+  padding: 2%;
 }
 
+.col-middle-subscribe h1{
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  margin: 3%;
+}
+
+
 #products-section{
-  background-color: blue;
-  height: 100vh;
+  background-color: #3e7b8a;
+  height: auto;
   width: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.products-row h1{
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#reviews-section{
+  background-color: #376f7d;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.reviews-row h1{
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  float: right;
+  margin-bottom: 5%;
+}
+
+.card{
 }
 #contacts-section{
-  background-color: red;
-  height: 30vh;
+  background-color: #274952;
+  height: 20vh;
   width: auto;
 }
