@@ -3,7 +3,9 @@ html{
   font-family: sans-serif;
 }
 
-
+.navbar{
+  background-color: white;
+}
 
 .d-block{
   height: 50vh;
@@ -71,6 +73,11 @@ html{
 }
 #contacts-section{
   background-color: #274952;
-  height: 20vh;
+  color:white;
+  height: auto;
   width: auto;
+}
+.contact-set{
+  text-align: center;
+  padding: 1%;
 }
