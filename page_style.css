@@ -12,6 +12,7 @@ html{
   object-fit: cover;
 }
 
+
 #subscribe-section{
   background-color:  #438899;
   height: auto;
@@ -37,6 +38,16 @@ html{
   padding: 5%;
 }
 
+.product-card{
+  transition: .1s cubic-bezier(1, 1, 1, 1), .1s cubic-bezier(1, 1, 1, 1);
+  cursor: pointer;
+}
+
+.product-card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
 .products-row h1{
   color: white;
   font-size: 30px;
@@ -55,12 +66,14 @@ html{
   padding: 5%;
 }
 
+#carousel-reviews{
+}
+
 .reviews-row h1{
   color: white;
   font-size: 30px;
   justify-content: center;
   text-align: center;
-  float: right;
   margin-bottom: 5%;
 }
 
@@ -68,8 +81,8 @@ html{
   border-color: white;
   background: transparent;
   color: white;
-  width:70%;
-  left:15%;
+  margin: auto;
+  width: 70%;
 }
 #contacts-section{
   background-color: #274952;
@@ -77,6 +90,8 @@ html{
   height: auto;
   width: auto;
 }
+
+
 .contact-set{
   text-align: center;
   padding: 1%;
