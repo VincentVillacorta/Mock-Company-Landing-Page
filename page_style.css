@@ -31,7 +31,7 @@ html{
 
 
 #products-section{
-  background-color: #3e7b8a;
+  background-color: rgb(79, 142, 153);
   height: auto;
   width: auto;
   justify-content: center;
@@ -51,7 +51,7 @@ html{
 
 .products-row h1{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   justify-content: center;
   text-align: center;
   margin-bottom: 5%;
@@ -69,7 +69,7 @@ html{
 
 .reviews-row h1{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 5%;
 }
 
@@ -86,7 +86,10 @@ html{
   width: 70vw;
   padding-left: 10vw;
   padding-right: 10vw;
-  overflow: hidden;
+
+}
+
+.card-text{
   text-overflow: ellipsis;
 }
 
@@ -105,10 +108,26 @@ html{
   height: auto;
 }
 
+.icon-image{
+  width: 20px;
+  margin: 3px;
+}
+
+.icon-image:hover{
+  opacity: .5;
+}
 
 .contact-set{
   text-align: center;
   padding: 1%;
   margin-top: 3vh;
   margin-bottom: 3vh;
+}
+
+.contact-links-set{
+  line-height: .7;
+}
+
+.contact-links-set p:hover{
+  text-decoration: underline;
 }
